@@ -1,0 +1,24 @@
+.container {
+    background: grey;
+}
+
+.mainlogo {
+    width: 150px;
+    height: 150px;
+}
+
+.mainlogo #box {
+    fill: white;
+}
+
+.mainlogo #pin {
+    fill: var(--accent);
+}
+
+.mainlogo #name {
+    fill: var(--secondary);
+}
+
+.mainlogo #slogan {
+    fill: var(--tertiary);
+}
