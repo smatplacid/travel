@@ -7,3 +7,10 @@ Ein liebevolles Projekt von:
 - Christop
 - Rosa
 - Chime
+
+# Hinweis an's Team:
+Da es 2 Apps gibt, achtet auf den Port!
+- travel-app läuft auf Port 3000 (ReactJS)
+- travel-api läuft auf Port 9000 (ExpressJS)
+
+Im jeweiligen Verzeichnis mit "npm start" aufzurufen.
