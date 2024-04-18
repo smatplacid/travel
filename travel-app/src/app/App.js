@@ -33,4 +33,4 @@ class App extends Component {
 }
 export default App;
 
-// so ein neuer versuch
+// so ein neuer versuch mit GitLens 
