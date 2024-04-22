@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Content from './components/Content';
 import withSplashScreen from './components/withSplashScreen';
+
+import Translate from './components/Translate';
+
 
 class App extends Component {
 
@@ -28,6 +32,15 @@ class App extends Component {
       <div className="App">
         <Header />
         <Content />
+
+        <Router>
+          <Fragment>
+            <Routes>
+              <Route exact path='/translate' element={<Translate />} />
+            </Routes>
+          </Fragment>
+        </Router>
+
 
         <p>API Response: {this.state.apiResponse}</p>
       </div>
