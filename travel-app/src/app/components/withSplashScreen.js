@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import logo from '../logo1.png';
 import './splash-screen.css';
 
+const splashClass = "splash-screen";
 
 function SplashMessage() {
     return (
-        <div>
+        <div className={splashClass}>
             <img src={logo} className="App-logo" alt="logo" />
         </div>
     );
@@ -27,7 +28,7 @@ export default function withSplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 8000)
+                }, 80000)
             } catch (err) {
                 console.log(err);
                 this.setState({

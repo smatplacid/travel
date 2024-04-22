@@ -6,9 +6,6 @@ import withSplashScreen from './components/withSplashScreen';
 
 class App extends Component {
 
-
-
-  // *********************************** callAPI() 
   constructor(props) {
     super(props);
     this.state = { apiResponse: "" };

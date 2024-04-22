@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Content.css';
+import './Content.css';
 import scripts from '../script';
 
 export default function Content() {

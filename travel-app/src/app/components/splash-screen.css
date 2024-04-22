@@ -1,16 +1,22 @@
-.App-logo {
-    margin: 50px 0 0 40%;
-    animation-name: Techstarter;
-    animation-duration: 6.s;
-    transition: width 4s, height 2s, transform 4s;
-	transform-origin: center;
+.splash-screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@keyframes Techstarter  {
-    from {opacity: 0;}
-    to {opacity: 1;}
+.splash-screen img {
+  animation-name: splashScreen;
+  height: auto;
+  width: 100px;
 }
-
-@keyframes beat{
-	to { transform: scale(1.4); }
-}
+@keyframes splashScreen {
+  from {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=splash-screen.css.map */

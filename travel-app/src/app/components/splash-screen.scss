@@ -1,0 +1,39 @@
+.splash-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        -webkit-animation-name: splashScreen;
+        animation-name: splashScreen;
+        height: auto;
+        width: 100px;
+        ;
+    }
+}
+
+@-webkit-keyframes splashScreen {
+    from {
+        opacity: 0;
+        transform: scale(1.4);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes splashScreen {
+    from {
+        opacity: 0;
+        transform: scale(1.4);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
