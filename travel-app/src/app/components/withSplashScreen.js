@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../logo1.png';
+import logo from '../logo.svg';
 import './splash-screen.css';
 
 const splashClass = "splash-screen";
@@ -23,12 +23,11 @@ export default function withSplashScreen(WrappedComponent) {
 
         async componentDidMount() {
             try {
-                // Put here your await requests/ API requests
                 setTimeout(() => {
                     this.setState({
                         loading: false,
                     });
-                }, 80000)
+                }, 5000)
             } catch (err) {
                 console.log(err);
                 this.setState({
