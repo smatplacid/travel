@@ -1,87 +1,96 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .button-87 {
-        width: 150px;
-        margin: 15px;
-        padding: 15px 30px;
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: #EA463F;
-        border-radius: 10px;
-        display: inline-block;
-        border: 0px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: large;
+  width: 150px;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #EA463F;
+  border-radius: 10px;
+  display: inline-block;
+  border: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
 
-        
-        background-image: linear-gradient(45deg, #f6bc46 0%, #f6bc46  51%, #e9d562  100%);
-        cursor: pointer;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-      }
-      
-      .button-87:hover {
-        background-position: right center;
-        /* change the direction of the change here */
-        color: #ea673f;
-        text-decoration: none;
-      }
-      
-      .button-87:active {
-        transform: scale(0.95);
+
+  background-image: linear-gradient(45deg, #f6bc46 0%, #f6bc46 51%, #e9d562 100%);
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #ea673f;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
 }
 
 .button-88 {
-    width: 100px;
-    margin: 15px;
-    height: 50px;
-    text-align: center;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: #EA463F;
-    border-radius: 20px;
-    display: inline-block;
-    border: 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: large;
+  width: 100px;
+  margin: 15px;
+  height: 50px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #EA463F;
+  border-radius: 20px;
+  display: inline-block;
+  border: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
 
-    
-    background-image: linear-gradient(45deg, #f6bc46 0%, #f6bc46  51%, #e9d562  100%);
-    cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button-88:hover {
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #ea673f;
-    text-decoration: none;
-  }
-  
-  .button-88:active {
-    transform: scale(0.95);
+
+  background-image: linear-gradient(45deg, #f6bc46 0%, #f6bc46 51%, #e9d562 100%);
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #ea673f;
+  text-decoration: none;
+}
+
+.button-88:active {
+  transform: scale(0.95);
 }
 
 
 .cont-txt {
-    color: transparent;
-    margin-bottom: 25%;
+  color: transparent;
+  margin-bottom: 25%;
 }
 
 .inputArea {
-    border-radius: 20px;
-    border: 0px;
-    background-color: white;
-    margin-bottom: 10px;
-    width: 220px;
-    height: 85px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 220px;
+  height: 85px;
 }
 
 .output {

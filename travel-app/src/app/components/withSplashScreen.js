@@ -8,7 +8,7 @@ function SplashMessage() {
     return (
         <div className={splashClass}>
             <img src={logo} className="App-logo" alt="logo" />
-        
+
             <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </div>
     );
@@ -24,10 +24,12 @@ export default function withSplashScreen(WrappedComponent) {
         }
 
         // <script>
-  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(44);
-  });
-// </script>
+        //   document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+        //     this.MaterialProgress.setProgress(44);
+        //   });
+        // </script>
+
+
 
         async componentDidMount() {
             try {
