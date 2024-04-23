@@ -7,7 +7,7 @@ import withSplashScreen from './components/withSplashScreen';
 
 import Translate from './components/Translate';
 
-
+// just adding a line
 class App extends Component {
 
   constructor(props) {
