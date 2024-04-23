@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Content from './components/Content';
+
 import withSplashScreen from './components/withSplashScreen';
 
 import Translate from './components/Translate';
+import Translater from './components/Translater';
 
 
 class App extends Component {
@@ -30,8 +32,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Header />
-        <Content />
+        {/*<Content />*/}
+        <Translater />
 
         <Router>
           <Fragment>
@@ -43,7 +47,9 @@ class App extends Component {
 
 
         <p>API Response: {this.state.apiResponse}</p>
-      </div>
+
+
+</div>
     );
   }
 }
