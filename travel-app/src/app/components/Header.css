@@ -1,5 +1,5 @@
 .container {
-    background: grey;
+    background-color: aliceblue;
 }
 
 .mainlogo {
@@ -8,17 +8,19 @@
 }
 
 .mainlogo #box {
-    fill: white;
+    fill: var(--tertiary);
 }
 
 .mainlogo #pin {
     fill: var(--accent);
+    
 }
 
 .mainlogo #name {
     fill: var(--secondary);
+    
 }
 
 .mainlogo #slogan {
-    fill: var(--tertiary);
+    fill: var(--secondary);
 }
