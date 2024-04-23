@@ -79,6 +79,22 @@
     border-radius: 20px;
     border: 0px;
     background-color: white;
+    margin-bottom: 10px;
     width: 220px;
     height: 85px;
+}
+
+.output {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0px;
+  width: 220px;
+  height: 200px
+}
+
+.flag {
+  margin-bottom: 10px;
 }

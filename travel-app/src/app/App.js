@@ -34,8 +34,8 @@ class App extends Component {
       <div className="App">
         
         <Header />
-        {/*<Content />*/}
-        <Translater />
+        {/* <Content /> */}
+        <Translater /> 
 
         <Router>
           <Fragment>
