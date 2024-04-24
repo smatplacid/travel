@@ -12,7 +12,7 @@ function SplashMessage() {
 
             <Logo />
 
-            <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+            <div id="p2" className="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </div>
     );
 }
