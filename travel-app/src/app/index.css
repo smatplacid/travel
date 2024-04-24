@@ -2,7 +2,13 @@
   --primary: #848FA5;
   --secondary: #d2e5a7;
   --redtext: #EA463F;
+
+  --tertiary-dark-40: #306a77;
+  --tertiary-dark-20: #2f7d8b;
   --tertiary: #4498aa;
+  --tertiary-light-20: #69adbb;
+  --tertiary-light-40: #8fc1cc;
+
   --accent: #393B54;
 
   --clampFont: clamp(1rem, 0.6795rem + 1.7094vw, 1.5rem);
@@ -24,8 +30,8 @@ code {
   font-family: "Roboto", sans-serif;
 }
 
-button{
+button {
   font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }

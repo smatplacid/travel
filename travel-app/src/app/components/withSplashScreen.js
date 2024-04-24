@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import './splash-screen.css';
+import Logo from './MainLogo';
+
+// import 'https://code.getmdl.io/1.3.0/material.min.js';
+// import 'https://code.getmdl.io/1.3.0/material.indigo-pink.min.css';
+// import 'https://fonts.googleapis.com/icon?family=Material+Icons';
 
 const splashClass = "splash-screen";
 
 function SplashMessage() {
     return (
         <div className={splashClass}>
-            <img src={logo} className="App-logo" alt="logo" />
+            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+
+            <Logo />
 
             <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
         </div>
@@ -37,7 +44,7 @@ export default function withSplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 5000)
+                }, 3000000)
             } catch (err) {
                 console.log(err);
                 this.setState({
