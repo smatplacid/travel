@@ -32,9 +32,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+
         <Header />
-        <Content /> 
+        <Content />
         {/* <Translater />  */}
 
         <Router>
@@ -49,7 +49,7 @@ class App extends Component {
         <p>API Response: {this.state.apiResponse}</p>
 
 
-</div>
+      </div>
     );
   }
 }

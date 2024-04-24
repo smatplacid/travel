@@ -3,10 +3,6 @@ import logo from '../logo.svg';
 import './splash-screen.css';
 import Logo from './MainLogo';
 
-// import 'https://code.getmdl.io/1.3.0/material.min.js';
-// import 'https://code.getmdl.io/1.3.0/material.indigo-pink.min.css';
-// import 'https://fonts.googleapis.com/icon?family=Material+Icons';
-
 const splashClass = "splash-screen";
 
 function SplashMessage() {
@@ -30,21 +26,13 @@ export default function withSplashScreen(WrappedComponent) {
             };
         }
 
-        // <script>
-        //   document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-        //     this.MaterialProgress.setProgress(44);
-        //   });
-        // </script>
-
-
-
         async componentDidMount() {
             try {
                 setTimeout(() => {
                     this.setState({
                         loading: false,
                     });
-                }, 3000000)
+                }, 3000)
             } catch (err) {
                 console.log(err);
                 this.setState({

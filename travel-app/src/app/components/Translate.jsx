@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import countries from "../data";
+import countries from "../data.js";
 import './Translate.css';
 
 
