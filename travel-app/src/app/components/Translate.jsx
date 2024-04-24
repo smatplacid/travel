@@ -175,7 +175,7 @@ const Translate = () => {
 
                             <Select
                                 options={options}
-                                placeholder="Select a source language"
+                                placeholder="source language"
                                 className="select"
                                 isSearchable={true}
                                 onChange={(option) => handleLanguageChange(option, { name: "from-language" })}
@@ -191,7 +191,7 @@ const Translate = () => {
 
                             <Select
                                 options={options}
-                                placeholder="Select a source language"
+                                placeholder="to language"
                                 className="select"
                                 isSearchable={true}
                                 onChange={(option) => handleLanguageChange(option, { name: "to-language" })}
@@ -204,7 +204,7 @@ const Translate = () => {
                         </li>
                     </ul>
                 </div>
-                <button>Translate Text</button>
+                <button onClick={translateText}>Translate Text</button>
             </div>
         </>
     );

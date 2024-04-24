@@ -24,6 +24,10 @@ const countries = {
         name: "Poland",
         image: 'https://hatscripts.github.io/circle-flags/flags/pl.svg'
     },
+    "en": {
+        name: "English",
+        image: 'https://hatscripts.github.io/circle-flags/flags/gb-eng.svg'
+    },
 
 };
 
