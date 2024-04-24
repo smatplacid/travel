@@ -19,16 +19,22 @@ const Translate = () => {
     };
 
     // Funktion zum Senden der Übersetzung an die API
-    const translateText = () => {
+    const translateText = async () => {
         const fromText = document.querySelector(".from-text").value.trim();
-        if (!fromText || !fromLanguage || !toLanguage) return;
+
+        if (!fromText || !fromLanguage || !toLanguage) {
+            console.log("Eingabe oder Spracheinstellungen fehlen!");
+            return;
+        }
 
         const apiUrl = `https://api.mymemory.translated.net/get?q=${fromText}&langpair=${fromLanguage}|${toLanguage}`;
-        fetch(apiUrl)
-            .then((res) => res.json())
-            .then((data) => {
-                document.querySelector(".to-text").value = data.responseData.translatedText;
-            });
+        try {
+            const response = await fetch(apiUrl);
+            const data = await response.json();
+            document.querySelector(".to-text").value = data.responseData.translatedText;
+        } catch (error) {
+            console.error("Fehler beim Abrufen der Übersetzung:", error);
+        }
     };
 
     const options = Object.entries(countries).map(([key, { name, image }]) => ({
