@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Content from './components/Content';
-
+import ProgressBar from './components/ProgressBar';
 import withSplashScreen from './components/withSplashScreen';
 
-import Translate from './components/Translate';
-import Translater from './components/Translater';
+import Translate from './components/Translate'; // Roman
+import Translater from './components/Translater'; // Sarah
 
 // just adding a line
 class App extends Component {
@@ -33,6 +33,15 @@ class App extends Component {
     return (
       <div className="App">
 
+        {/* 
+        <Router>
+          <Fragment>
+            <Routes>
+              <Route exact path='/' element={<ProgressBar />} />
+            </Routes>
+          </Fragment>
+        </Router> */}
+
         <Header />
         <Content />
         {/* <Translater />  */}
@@ -55,4 +64,4 @@ class App extends Component {
 }
 
 
-export default withSplashScreen(App);
+export default App;
