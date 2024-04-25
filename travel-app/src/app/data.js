@@ -1,8 +1,15 @@
+/**************************
+ * Hier fällt mir gerade die Logik ein, unser Projekt mehrsprachig zu machen. 
+ * Ein Engländer versteht ja nicht unbedingt, was nun "Deutsch" heißt.
+**************************/
+
 const countries = {
+    // Deutsch
     "de": {
         name: "Germany",
         image: 'https://hatscripts.github.io/circle-flags/flags/de.svg'
     },
+    // Polnisch
     "pl": {
         name: "Poland",
         image: 'https://hatscripts.github.io/circle-flags/flags/pl.svg'
@@ -23,6 +30,7 @@ const countries = {
         name: "Belgium",
         image: 'https://hatscripts.github.io/circle-flags/flags/be.svg'
     },
+    // Arabisch
     "ae": {
         name: "United Arab Emirates",
         image: 'https://hatscripts.github.io/circle-flags/flags/ae.svg'
