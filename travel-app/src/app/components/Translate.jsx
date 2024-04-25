@@ -36,7 +36,7 @@ const Translate = () => {
             console.error("Fehler beim Abrufen der Übersetzung:", error);
         }
 
-        console.log(apiUrl);
+        // console.log(apiUrl);
     };
 
     const options = Object.entries(countries).map(([key, { name, image }]) => ({

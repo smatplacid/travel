@@ -1,26 +1,26 @@
+@charset "UTF-8";
+/********************************
+ * Wenn Änderungen in der CSS vorgenommen werden, 
+ * werden diese ÜBERSCHRIEBEN, 
+ * da sie von der gleichnamigen SCSS generiert werden !!!!
+********************************/
 .container {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .mainlogo {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
-
 .mainlogo #box {
-    fill: var(--tertiary);
+  fill: var(--tertiary);
 }
-
 .mainlogo #pin {
-    fill: var(--accent);
-    
+  fill: var(--accent);
 }
-
 .mainlogo #name {
-    fill: var(--secondary);
-    
+  fill: var(--secondary);
 }
-
 .mainlogo #slogan {
-    fill: var(--secondary);
-}
+  fill: var(--secondary);
+}/*# sourceMappingURL=Header.css.map */

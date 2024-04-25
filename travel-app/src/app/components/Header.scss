@@ -1,0 +1,32 @@
+/********************************
+ * Wenn Änderungen in der CSS vorgenommen werden, 
+ * werden diese ÜBERSCHRIEBEN, 
+ * da sie von der gleichnamigen SCSS generiert werden !!!!
+********************************/
+
+.container {
+    background-color: aliceblue;
+}
+
+.mainlogo {
+    width: 150px;
+    height: 150px;
+
+    #box {
+        fill: var(--tertiary);
+    }
+
+    #pin {
+        fill: var(--accent);
+
+    }
+
+    #name {
+        fill: var(--secondary);
+
+    }
+
+    #slogan {
+        fill: var(--secondary);
+    }
+}
