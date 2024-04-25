@@ -109,9 +109,9 @@ const countries = {
         name: "Netherlands",
         image: 'https://hatscripts.github.io/circle-flags/flags/nl.svg'
     },
-    "sv": {
+    "se": {
         name: "Sweden",
-        image: 'https://hatscripts.github.io/circle-flags/flags/sv.svg'
+        image: 'https://hatscripts.github.io/circle-flags/flags/se.svg'
     },
 
 
