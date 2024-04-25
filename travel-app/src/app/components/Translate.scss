@@ -139,6 +139,11 @@
                 }
             }
 
+            .select {
+                [id*="-placeholder"] {
+                    white-space: nowrap;
+                }
+            }
 
             select {
                 color: #333;

@@ -10,6 +10,7 @@
   --tertiary-light-40: #8fc1cc;
 
   --accent: #393B54;
+  --action: #f6bc46;
 
   --clampFont: clamp(1rem, 0.6795rem + 1.7094vw, 1.5rem);
   --clampH1: clamp(1.25rem, 0.9295rem + 1.7094vw, 1.75rem);

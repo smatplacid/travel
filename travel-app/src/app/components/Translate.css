@@ -112,6 +112,9 @@
   transition: transform 0.2s ease;
   justify-content: center;
 }
+.translateContainer .controls .row .select [id*=-placeholder] {
+  white-space: nowrap;
+}
 .translateContainer .controls .row select {
   color: #333;
   border: none;

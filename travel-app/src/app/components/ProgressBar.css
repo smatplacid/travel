@@ -1,7 +1,39 @@
 .progress-container {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    z-index: 99999;
-    background: red;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 99999;
+  background: var(--tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s;
 }
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 5px;
+  background-color: var(--action);
+  transition: width 0.5s ease-out;
+  animation-name: progress-bar;
+  animation-duration: 3s;
+}
+@keyframes progress-bar {
+  0% {
+    width: 0;
+  }
+  37% {
+    width: 37%;
+  }
+  50% {
+    width: 60%;
+  }
+  100% {
+    width: 100%;
+  }
+}/*# sourceMappingURL=ProgressBar.css.map */

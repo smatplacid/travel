@@ -33,14 +33,13 @@ class App extends Component {
     return (
       <div className="App">
 
-        {/* 
         <Router>
           <Fragment>
             <Routes>
               <Route exact path='/' element={<ProgressBar />} />
             </Routes>
           </Fragment>
-        </Router> */}
+        </Router>
 
         <Header />
         <Content />
