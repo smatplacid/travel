@@ -1,9 +1,9 @@
 # Travel App 2024 @techStarter
 
 Ein liebevolles Projekt von:
-- Roman Hanzlik
-- Christoph Jurkun
-- Sarah Mia Theil Born
+- Roman Hanzlika
+- Christoph 
+- Sarah 
 - Carsten
 - Rosa
 - Chime
