@@ -2,9 +2,9 @@
 
 Ein liebevolles Projekt von:
 - Roman Hanzlik
-- Sarah
-- Carsten
 - Christoph Jurkun
+- Sarah Mia Theil Born
+- Carsten
 - Rosa
 - Chime
 
