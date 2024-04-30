@@ -37,6 +37,7 @@ class App extends Component {
           <Fragment>
             <Routes>
               <Route exact path='/' element={<ProgressBar />} />
+              <Route exact path='/translate' element={<Translate />} />
             </Routes>
           </Fragment>
         </Router>
@@ -44,15 +45,6 @@ class App extends Component {
         <Header />
         <Content />
         {/* <Translater />  */}
-
-        <Router>
-          <Fragment>
-            <Routes>
-              <Route exact path='/translate' element={<Translate />} />
-            </Routes>
-          </Fragment>
-        </Router>
-
 
         <p>API Response: {this.state.apiResponse}</p>
 
