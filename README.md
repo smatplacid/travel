@@ -4,7 +4,7 @@ Ein liebevolles Projekt von:
 - Roman Hanzlik
 - Sarah
 - Carsten
-- Christop
+- Christoph Jurkun
 - Rosa
 - Chime
 
